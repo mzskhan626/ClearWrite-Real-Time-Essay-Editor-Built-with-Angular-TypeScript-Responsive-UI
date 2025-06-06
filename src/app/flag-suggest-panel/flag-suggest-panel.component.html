@@ -1,0 +1,18 @@
+<div class="panel-container">
+  <input
+    type="text"
+    id="flaggedSentence"
+    [(ngModel)]="flaggedSentence"
+    (input)="onFlaggedSentenceChange($event.target.value)"
+    placeholder="Type a sentence to flag"
+  />
+  <input
+    type="text"
+    id="suggestion"
+    [(ngModel)]="suggestion"
+    (input)="onSuggestionChange($event.target.value)"
+    placeholder="Suggested improvement"
+  />
+  <button (click)="applySuggestion()">Apply</button>
+  <button (click)="undo()">Undo</button>
+</div>

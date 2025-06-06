@@ -1,0 +1,12 @@
+<div class="essay-editor">
+  <h2>Essay Editor</h2>
+  <textarea 
+    [(ngModel)]="essayText" 
+    rows="20" 
+    cols="50" 
+    placeholder="Type or paste your essay here..."
+    (input)="onEssayChange($event.target.value)"
+    class="essay-textarea">
+  </textarea>
+  <div class="highlighted" [innerHTML]="highlightedText"></div>
+</div>

@@ -1,0 +1,75 @@
+.large-editor {
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.suggest-panel {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.suggest-panel input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.apply-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #218838;
+}
+
+.essay-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.essay-textarea {
+  width: 100%;
+  min-height: 200px;
+  font-size: 1rem;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.highlighted {
+  white-space: pre-wrap;
+  background: #f6f8fa;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  min-height: 100px;
+  font-size: 1rem;
+}
+
+mark {
+  background: #ffe082;
+  color: #333;
+  border-radius: 2px;
+  padding: 0 2px;
+}
