@@ -34,7 +34,7 @@ An advanced Angular application for improving essay writing using real-time flag
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/mzskhan626/ClearWrite-Real-Time-Essay-Editor-Built-with-Angular-TypeScript-Responsive-UI
-   cd interactive-essay-editor
+   cd ClearWrite-Real-Time-Essay-Editor-Built-with-Angular-TypeScript-Responsive-UI
    ```
 
 2. **Install Dependencies**
