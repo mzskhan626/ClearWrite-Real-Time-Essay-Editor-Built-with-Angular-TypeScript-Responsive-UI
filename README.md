@@ -100,15 +100,11 @@ Unit tests exist for:
 
 ## 🙋‍♂️ Author
 
-**Muhammad Khan**  
-📧 mkhan49mtsac@gmail.com  
+**Mohammed Khan**  
+📧 mzskhan626@gmail.com
 🔗 [GitHub](https://github.com/mzskhan626)
 
 ---
 
-## 📄 License
 
-This project is licensed under the MIT License.
-
----
 
